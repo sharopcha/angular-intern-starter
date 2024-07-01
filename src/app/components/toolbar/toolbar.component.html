@@ -1,0 +1,10 @@
+<mat-toolbar class="w-full flex mat-toolbar mat-primary sticky top-0 left-0 shadow-lg" color="secondary">
+  <span class="ml-4">Angular/JSON forms</span>
+  <span class="flex-1"></span>
+  <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Angel&scale=150" class="h-10 w-10  rounded-full cursor-pointer" mat-icon-button [matMenuTriggerFor]="menu" />
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Profile</button>
+    <button mat-menu-item>Settings</button>
+    <button mat-menu-item>Logout</button>
+  </mat-menu>
+</mat-toolbar>
