@@ -1,0 +1,4 @@
+<mat-form-field class="w-full" [class]="schema['class']">
+  <mat-label>{{ schema.description }}</mat-label>
+  <input type="string" matInput [placeholder]="schema.placeholder || ''" [formControl]="control">
+</mat-form-field>
