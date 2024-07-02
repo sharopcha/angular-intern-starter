@@ -1,0 +1,6 @@
+<section>
+  <label>{{ schema.description }}</label>
+  <mat-slider class="!w-full !mb-3" [max]="schema['max']" [min]="schema['min']" [showTickMarks]="schema['showTickMarks']" [discrete]="schema['discrete']" >
+    <input [formControl]="control"  matSliderThumb >
+  </mat-slider>
+</section>
